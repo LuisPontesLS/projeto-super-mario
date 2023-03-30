@@ -7,11 +7,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Super Mario Bros - O Filme</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+
+    <!--FONTE: POPPINS 100, 300 e 500  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <!-- ============================================= -->
 
   <body>
+    <!-- <div class="fundo-video">
+      <video class="video" autoplay loop muted>
+        <source src="./src/video/video-mario.mp4" type="video/mp4" />
+      </video>
+    </div> -->
+
     <header class="cabecalho">
       <a
         ><img
@@ -22,24 +43,34 @@
 
       <nav>
         <ul class="menu">
-          <li>Home</li>
-          <li>Detalhes</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Detalhes</a></li>
         </ul>
       </nav>
     </header>
     <!-- -------------------------------- -->
     <main class="container">
       <div class="informacoes">
-        <img class="imagem-titulo" src="./src/imagens/titulo.png" alt="imagem do título do filme" />
+        <img
+          class="imagem-titulo"
+          src="./src/imagens/titulo.png"
+          alt="imagem do título do filme"
+        />
         <p class="descricao">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Reprehenderit, suscipit debitis? Nesciunt neque sed, tempore rerum
-          nemo incidunt, fugit cupiditate perspiciatis quia laboriosam,
-          consequuntur eum! Autem enim delectus voluptate in!
+          Mario e Luigi são dois irmãos que trabalham como encanadores. Eles acabam caindo em um duto mágico e são transportados para um novo mundo, ameaçado pelo rei dos Koopas. É lá que Mario vai descobrir seu verdadeiro poder. 🍄
+          <!-- Mario é um encanador junto com seu irmão Luigi. 
+          Um dia, eles vão parar no reino dos cogumelos, 
+          governado pela princesa Peach, mas ameaçado pelo
+          rei dos Koopas, que faz de tudo para conseguir
+          reinar em todos os lugares. -->
         </p>
         <button class="botao-trailer">Veja o trailer</button>
       </div>
-      <img class="mario" src="./src/imagens/super-mario-chars.png" alt="Imagem de 'capa'" />
+      <img
+        class="mario"
+        src="./src/imagens/super-mario-chars.png"
+        alt="Imagem de 'capa'"
+      />
     </main>
   </body>
   <!-- ============================================= -->
