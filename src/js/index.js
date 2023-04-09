@@ -1,6 +1,6 @@
 const botaoFecharModal = document.querySelector(".fechar-modal");
 const botaoTrailer = document.querySelector(".botao-trailer");
-const video = document.getElementById("video");
+const video = document.getElementById(".video");
 const modal = document.querySelector(".modal");
 const linkDoVideo = video.src;
 
