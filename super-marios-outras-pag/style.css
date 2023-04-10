@@ -62,11 +62,6 @@ nav ul.menu {
     list-style-type: none;
 }
 
-/* main{
-    max-width: 90%;
-    align-items: auto; 
-} */
-
 main.container {
     margin: 0 auto;
     align-items: center;
@@ -168,3 +163,37 @@ div.personagem {
     padding: 20px;
     margin: 20px;
 }
+
+/* ======================================= */
+/* Estilos para telas de smartphones */
+@media (max-width: 767px) {
+    body {
+      background-color: blue;
+    }
+  
+    header.cabecalho {
+      background-size: cover;
+      padding: 10px;
+    }
+  
+    .cabecalho .logo {
+      width: 50px;
+    }
+  
+    .cabecalho .menu {
+      display: none;
+    }
+  
+    main.container {
+      padding: 10px;
+    }
+  
+    .texto-personagem {
+      text-align: center;
+    }
+  
+    img.figura-transparente {
+      width: 100%;
+    }
+  }
+  

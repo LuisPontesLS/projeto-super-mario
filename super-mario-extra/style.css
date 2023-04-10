@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos para o cabeçalho */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a {
+    margin-left: 10px;
+}
+
+/* Estilos para as imagens e textos */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item {
+    flex-basis: calc(25% - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    text-align: justify;
+}
+
+/* ====================================== */
+
+/* Estilos para telas de smartphones */
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        /* align-items: flex-start; */
+        align-items: center;
+        /* Centraliza os itens verticalmente */
+        text-align: center;
+    }
+
+    .links {
+        justify-content: flex-start;
+    }
+
+    .item {
+        flex-basis: 100%;
+    }
+
+
+    .logo {
+        width: 30%;
+    }
+
+    /* IMAGENS DE FUNDO */
+    .mario {
+        background-image: url('./src/cenario-classico-mobile.jpg');
+    }
+
+    .luigi {
+        background-image: url('./src/cenario-classico-mobile-2.jpg');
+    }
+
+    .princesa {
+        background-image: url('./src/cenario-princesa-mobile-2.jpeg');
+    }
+
+    .toad {
+        background-image: url('./src/cenario-classico-mobile-6.jpg');
+    }
+    .donkey {
+        background-image: url('./src/cenario-donkey-mobile.jpg');
+    }
+
+    .bowser {
+        background-image: url('./src/cenario-bowser-mobile.png');
+    }
+}
