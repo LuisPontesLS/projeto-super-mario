@@ -2,36 +2,38 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-
-/* Estilos para o cabeçalho */
 .header {
+    background-image: url('../super-mario-extra/src/personagens-mario-capa.webp');
+    background-size: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #f0f0f0;
-    padding: 10px;
+    padding: 15px 0 25px 0;
 }
 
-.logo {
+.header .logo {
     flex: 1;
 }
 
-.links {
+.header .links {
     display: flex;
     justify-content: flex-end;
 }
 
-.links a {
+.header .links a {
     margin-left: 10px;
 }
 
 /* Estilos para as imagens e textos */
 .container {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     gap: 10px;
+    margin: 0 auto;
 }
 
 .item {
@@ -52,9 +54,16 @@ p {
 
 /* ====================================== */
 
+
+
+
+
+
 /* Estilos para telas de smartphones */
 @media (max-width: 767px) {
     .header {
+        background-image: url('../super-mario-extra/src/personagens-mario-capa.webp');
+        width: 100%;
         flex-direction: column;
         /* align-items: flex-start; */
         align-items: center;
@@ -70,9 +79,12 @@ p {
         flex-basis: 100%;
     }
 
-
     .logo {
         width: 30%;
+    }
+
+    p {
+        text-indent: 25px;
     }
 
     /* IMAGENS DE FUNDO */
@@ -80,22 +92,112 @@ p {
         background-image: url('./src/cenario-classico-mobile.jpg');
     }
 
+    .mario p {
+        font-weight: bold;
+    }
+
+    .mario .figura-mario {
+        width: 70%;
+    }
+
     .luigi {
         background-image: url('./src/cenario-classico-mobile-2.jpg');
+    }
+
+    .luigi .figura-luigi {
+        width: 70%;
+        align-items: center;
+        /* margin-bottom: 90px;
+        margin-left: 70px; */
+        margin: 15px 0 80px 90px;
+    }
+
+    .luigi p {
+        color: rgb(10, 59, 10);
+        padding: 10px;
+        margin-bottom: 30px;
+        font-weight: bold;
     }
 
     .princesa {
         background-image: url('./src/cenario-princesa-mobile-2.jpeg');
     }
 
+    div .texto-princesa {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: rgb(228, 180, 196);
+        padding: 5px 10px;
+    }
+
+    div .texto-princesa h3 {
+        padding-bottom: 15px;
+        color: rgb(228, 180, 196);
+    }
+
     .toad {
         background-image: url('./src/cenario-classico-mobile-6.jpg');
     }
+
+    .toad img {
+        height: 40%;
+        padding-left: 120px;
+    }
+
+    .toad p,
+    h3 {
+        font-weight: bold;
+        color: rgb(7, 7, 65);
+        padding: 5px 0;
+    }
+
+    .toad .toad-p-2 {
+        margin-bottom: 35px;
+    }
+
     .donkey {
         background-image: url('./src/cenario-donkey-mobile.jpg');
     }
 
+    .donkey h3 {
+        color: rgb(5, 53, 5);
+    }
+
+    .donkey p {
+        background-color: rgba(0, 0, 0, 0.35);
+        color: greenyellow;
+        padding: 5px 10px;
+    }
+
     .bowser {
         background-image: url('./src/cenario-bowser-mobile.png');
+    }
+
+    .bowser {
+        display: flex;
+        /* Define o container como flex */
+        flex-direction: column;
+        /* Define a direção do fluxo dos itens como coluna */
+        align-items: end;
+        /* Alinha os itens verticalmente no centro do container */
+        text-align: center;
+        /* Alinha o texto no centro do container */
+
+    }
+
+    .bowser .texto-bowser {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: orange;
+        padding: 5px 0;
+    }
+
+    .bowser h3 {
+        text-align: left;
+        padding-bottom: 15px;
+        color: orangered;
+    }
+
+    .bowser img {
+        margin-top: 10px;
+        /* Adiciona uma margem superior à imagem para separá-la do título */
     }
 }
