@@ -14,10 +14,10 @@
     background-color: #f0f0f0;
     padding: 15px 0 25px 0;
 }
-
+/* 
 .header .logo {
     flex: 1;
-}
+} */
 
 .header .links {
     display: flex;
@@ -46,6 +46,16 @@
 .item img {
     max-width: 100%;
     height: auto;
+}
+
+.mario {
+    background-image: url('./src/img-desktop/cenario-classico-1.jpg');
+    /* background-size: 100%; */
+    /* background-repeat: no-repeat; */
+}
+
+.mario .figura-mario {
+    width: 18%;
 }
 
 p {
