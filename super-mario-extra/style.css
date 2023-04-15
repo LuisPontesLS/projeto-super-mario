@@ -15,9 +15,8 @@
     padding: 15px 0 25px 0;
 }
 
-
 .header .logo {
-    width: 60px;
+    flex: 1;
 }
 
 .header .links {
@@ -34,7 +33,7 @@
     display: block;
     flex-wrap: wrap;
     gap: 10px;
-    margin: 0 65px;
+    margin: 0 auto;
 }
 
 .item {
@@ -49,100 +48,8 @@
     height: auto;
 }
 
-.mario {
-    background-image: url('./src/img-desktop/cenario-fundo-mario-1.jpg');
-    background-size: 100%;
-    padding: 40px;
-    /* background-repeat: no-repeat; */
-}
-
-.mario p {
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.mario .figura-mario {
-    width: 18%;
-}
-
-.luigi {
-    background-image: url('./src/img-desktop/cenario-fundo-luigi.jpg');
-    background-size: 100%;
-    padding: 40px 40px 0;
-    /* background-repeat: no-repeat; */
-}
-
-.luigi .figura-luigi {
-    width: 20%;
-    padding: 30px;
-}
-
-.luigi p {
-    font-weight: bold;
-    font-size: 30px;
-    color: rgb(10, 59, 10);
-}
-
-.luigi h2 {
-    font-size: 40px;
-    color: rgb(10, 59, 10);
-    padding: 0 0 15px 0;
-}
-
-.figura-princesa {
-    width: 350px;
-}
-
-.princesa {
-    background-image: url('../super-mario-extra/src/img-desktop/cenario-princesa.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: block;
-}
-
-.princesa p {
-    font-weight: bold;
-    font-size: 26px;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-div .texto-princesa {
-    color: rgb(209, 139, 162);
-    padding: 38px 70px;
-}
-
-div .texto-princesa h3 {
-    padding-bottom: 15px;
-    color: rgb(209, 139, 162);
-    font-size: 50px;
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 5px 10px;
-}
-
-.toad {
-    background-image: url('../super-mario-extra/src/img-desktop/cenario-fundo-toad.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: block;
-}
-
-.toad .texto-toad {
-    /* align-items: auto; */
-    margin: 20px 30px;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.toad .figura-toad {
-    width: 350px;
-    padding: 30px;
-    padding-left: 120px;
-}
-
-
 p {
     text-align: justify;
-    text-indent: 40px;
 }
 
 /* ====================================== */
@@ -164,14 +71,6 @@ p {
         text-align: center;
     }
 
-    .header .logo {
-        width: 35px;
-    } 
-
-    .container {
-        margin: 0 auto;
-    }
-
     .links {
         justify-content: flex-start;
     }
@@ -191,12 +90,10 @@ p {
     /* IMAGENS DE FUNDO */
     .mario {
         background-image: url('./src/cenario-classico-mobile.jpg');
-        background-size: 100%;
     }
 
     .mario p {
         font-weight: bold;
-        font-size: 20px;
     }
 
     .mario .figura-mario {
@@ -205,7 +102,6 @@ p {
 
     .luigi {
         background-image: url('./src/cenario-classico-mobile-2.jpg');
-        background-size: auto;
     }
 
     .luigi .figura-luigi {
@@ -213,13 +109,7 @@ p {
         align-items: center;
         /* margin-bottom: 90px;
         margin-left: 70px; */
-        margin: 15px 0 10px 90px;
-    }
-
-    .luigi h2 {
-        font-size: 30px;
-        color: rgb(10, 59, 10);
-        padding: 5px;
+        margin: 15px 0 80px 90px;
     }
 
     .luigi p {
@@ -227,55 +117,31 @@ p {
         padding: 10px;
         margin-bottom: 30px;
         font-weight: bold;
-        font-size: 20px;
     }
 
     .princesa {
         background-image: url('./src/cenario-princesa-mobile-2.jpeg');
-        background-size: auto;
-        display: block;
     }
 
     div .texto-princesa {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.6);
         color: rgb(228, 180, 196);
         padding: 5px 10px;
-    }
-
-    div .princesa p {
-        font-weight: bold;
-        font-size: 20px;
     }
 
     div .texto-princesa h3 {
         padding-bottom: 15px;
         color: rgb(228, 180, 196);
-        font-size: 22px;
-    }
-
-    div .figura-princesa {
-        width: 220px;
-        height: 304px;
     }
 
     .toad {
         background-image: url('./src/cenario-classico-mobile-6.jpg');
-        background-repeat: repeat;
-        background-size: auto;
-        display: block;
     }
 
     .toad img {
         height: 40%;
         padding-left: 120px;
     }
-
-    .toad .texto-toad {
-        align-items: auto;
-        margin: 0;
-        font-weight: bold;
-        font-size: 20px;
-    } 
 
     .toad p,
     h3 {
