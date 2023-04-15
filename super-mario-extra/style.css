@@ -73,7 +73,18 @@ p {
 
     .links {
         justify-content: flex-start;
+        font-weight: bold;
+         color: #ffffff;
+         background-color: rgba(0, 0, 0, 0.3);
+         border-radius: 50px;
+        /*font-size: 15px;
+        padding: 10px 20px;
+        margin-right: 10px;
+        transition: 0.2s; */
+        text-decoration: none;
+        gap: 5px;
     }
+
 
     .item {
         flex-basis: 100%;
