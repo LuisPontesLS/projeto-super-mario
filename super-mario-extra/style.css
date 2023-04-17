@@ -105,6 +105,7 @@ p {
 
     .mario p {
         font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.3);
     }
 
     .mario .figura-mario {
@@ -128,6 +129,7 @@ p {
         padding: 10px;
         margin-bottom: 30px;
         font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.3);
     }
 
     .princesa {
@@ -154,11 +156,18 @@ p {
         padding-left: 120px;
     }
 
-    .toad p,
-    h3 {
+    .toad p {
         font-weight: bold;
         color: rgb(7, 7, 65);
         padding: 5px 0;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .toad h2 {
+        font-weight: bold;
+        color: rgb(7, 7, 65);
+        padding: 5px 0;
+        background-color: rgba(0, 0, 0, 0.3);
     }
 
     .toad .toad-p-2 {

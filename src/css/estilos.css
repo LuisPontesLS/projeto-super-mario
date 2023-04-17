@@ -66,6 +66,7 @@ body {
   border: none;
   text-transform: uppercase;
   transition: 0.5s all ease-in-out;
+  margin-bottom: 15px;
 }
 
 .container .botao-trailer:hover {
@@ -147,4 +148,7 @@ body {
   opacity: 1;
   visibility: visible;
 }
+/* MINHAS ADAPTAÇÕES: ///////////// */
+
+
 

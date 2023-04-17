@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background-color: #3498db;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/* 
+.cabecalho {
+    background-color: #ffffff;
+    padding: 10px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+}
+ */
+
+
+.miyamoto {
+    padding: 20px;
+    color: #ffffff;
+}
+
+.miyamoto h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.miyamoto h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.miyamoto p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: justify;
+    text-indent: 18px;
+}
+
+.miyamoto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* body h1,
+h2,
+p {
+    padding-left: 30px;
+}
+
+header {
+    background-image: url('../imagens-super-mario/nintendo-2.jpg');
+}
+
+header.cabecalho {
+    background-image: url('./imagens-super-mario/personagens-mario-capa.webp');
+    background-size: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('../super-mario-extra/src/personagens-mario-capa.webp');
+    width: 100%;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    align-items: center;
+    /* Centraliza os itens verticalmente */
+    text-align: center;
+}
+
+.links {
+    justify-content: flex-start;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    text-decoration: none;
+    gap: 5px;
+}
+
+
+.cabecalho {
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho .logo {
+    width: 64px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cabecalho nav li a:hover {
+    background-color: #d5011d;
+}
+
+nav ul.menu {
+    list-style-type: none;
+}
+
+div img.miyamoto-e-criacoes {
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0 30px 30px;
+}
+
+.leo {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    height: 100%;
+}
+
+
+footer {
+}
+
+footer > p {
+    text-align: center;
+    color: #181a1b;
+}
+
+img.logo-contatos {
+    max-width: 11%;
+    margin-left: 13px;    
+}
+
+h3 {
+    margin: 15px;
+}
+
+div.links-contato {
+    margin: 10px;
+}
+
+
