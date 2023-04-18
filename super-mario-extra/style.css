@@ -220,4 +220,23 @@ p {
         margin-top: 10px;
         /* Adiciona uma margem superior à imagem para separá-la do título */
     }
+
+    footer > p {
+        text-align: center;
+        color: #181a1b;
+    }
+    
+    img.logo-contatos {
+        max-width: 11%;
+        margin-left: 13px;    
+    }
+    
+    h3 {
+        margin: 15px;
+    }
+    
+    div.links-contato {
+        margin: 10px;
+    }
+    
 }
